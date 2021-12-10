@@ -40,7 +40,7 @@ function verificar(){
                 img.setAttribute('src', 'images/f.adolescente.png')
 
             }else if (idade < 50){
-                img.setAttribute('src', 'images/f.adulto.png')
+                img.setAttribute('src', 'images/f.adulta.png')
             
             }else{
                 img.setAttribute('src', 'images/f.velha.png')
