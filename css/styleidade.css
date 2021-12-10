@@ -12,3 +12,19 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px;
 }
+ul{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    list-style: none;
+    font-size: 1rem;
+}
+
+a{
+    margin: 1rem;
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+}
