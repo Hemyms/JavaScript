@@ -1,0 +1,14 @@
+body{
+    background: lightcyan;
+    font: normal 14pt monospace;
+    text-align: center;
+    
+}
+section{
+    background: white;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    width: 75%;
+    margin: auto;
+    box-shadow: 5px 5px 10px;
+}
