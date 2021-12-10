@@ -16,16 +16,16 @@ function verificar(){
             genero = 'Homem'
             document.body.style.background = 'lightblue'
             if(idade >= 0 && idade <11){
-                img.setAttribute('src', 'image/m.crianca.png')
+                img.setAttribute('src', 'images/m.crianca.png')
 
             }else if(idade < 18){
-                img.setAttribute('src', 'image/m.adolescente.png')
+                img.setAttribute('src', 'images/m.adolescente.png')
 
             }else if (idade < 50){
-                img.setAttribute('src', 'image/m.adulto.png')
+                img.setAttribute('src', 'images/m.adulto.png')
             
             }else{
-                img.setAttribute('src', 'image/m.velho.png')
+                img.setAttribute('src', 'images/m.velho.png')
             }
 
 
@@ -34,16 +34,16 @@ function verificar(){
             genero = "Mulher"
             document.body.style.background = 'pink'
             if(idade >= 0 && idade <11){
-                img.setAttribute('src', 'image/f.crianca.png')
+                img.setAttribute('src', 'images/f.crianca.png')
 
             }else if(idade < 18){
-                img.setAttribute('src', 'image/f.adolescente.png')
+                img.setAttribute('src', 'images/f.adolescente.png')
 
             }else if (idade < 50){
-                img.setAttribute('src', 'image/f.adulto.png')
+                img.setAttribute('src', 'images/f.adulto.png')
             
             }else{
-                img.setAttribute('src', 'image/f.velha.png')
+                img.setAttribute('src', 'images/f.velha.png')
             }
         }
         res.innerHTML = `<p> Detectamos ${genero} com ${idade} anos`
